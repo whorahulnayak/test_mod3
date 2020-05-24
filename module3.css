@@ -1,6 +1,6 @@
 body{
 	font-family: 'Balsamiq Sans', cursive;
-	padding-top:135px;
+	padding-top:100px;
 }
 .navbar-default .navbar-brand{
 	font-family: 'Balsamiq Sans', cursive;
@@ -9,7 +9,7 @@ body{
 	color:black;
 	padding-left:20px;
 }
-.container-fluid{
+#cont{
 	background-color: grey;
 	padding: 10px;
 	border:3px solid black;
@@ -77,4 +77,13 @@ font-size:15px;
 	margin:auto;
 }
 
-
+@media (max-width: 768px)
+{
+	h2{
+		padding-top: 150px;
+	}
+}
+#p{
+	border:1px solid black;
+	margin:0px;
+}
