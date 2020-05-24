@@ -9,7 +9,7 @@ body{
 	color:black;
 	padding-left:20px;
 }
-#cont{
+.container-fluid{
 	background-color: grey;
 	padding: 10px;
 	border:3px solid black;
